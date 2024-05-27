@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta Pet</title>
+    <link rel="shortcut icon" href="img/ganado.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bienvenidos Usuarios a nuestro InstaPet</h1>
+
+    <p> Esta es una plataforma que permite registrar datos de su mascota y compartir sus mejores momentos. </p> 
+    <p> Por Favor complete el siguiente Formulario de registro 😊</p>
+
+    <form action="https://formsubmit.co/trakibillani77@gmail.com" method="POST">
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="Nombre" id="Nombre" maxlength="70" required placeholder="Ej: Laika">
+
+        <label for="Edad">Edad de la mascota</label>  
+        <input type="text" name="Edad de la mascota" id="Edad" maxlength="70" required placeholder="Ej: 1/2/3/4">
+
+        <label>Genero de la mascota:</label> <br>
+        <input type="radio" id="macho" name="genero" value="macho" required />
+        <label for="macho">Macho</label>
+        <input type="radio" id="hembra" name="genero" value="hembra" required />
+        <label for="hembra">hembra</label> <br>
+
+        <label for="email">Gmail</label>
+        <input type="email" name="email" id="email" maxlength="50" required placeholder="tuemail@correo.com" >
+        
+        <label for="pwd">Contraseña:</label>
+        <input type="password" id="pwd" name="pwd" required>
+
+        <label for="color">Color de mascota:</label>
+        <input type="color" id="color" name="color" required>
+
+        <label for="tipo-mascota">Tipo de mascota:</label>
+        <select id="tipo-mascota" name="tipo-mascota">
+        <option value="miau">Gato</option>
+        <option value="guau">Perro</option>
+        <option value="uiui">Cobayo</option>
+        <option value="otra">Otra</option>
+        </select>
+
+
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+    
+</body>
+</html>
